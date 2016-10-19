@@ -1,7 +1,12 @@
 //Nerys Jimenez Pichardo
-//Lab 10
-
-//wc -w --- 479,623 words
+//The College of Saint Rose 
+//November 23, 2015
+//This program reads the dictionary file /usr/share/dict/words into an array of strings. 
+//It assumes that each word is at most 45 characters long.
+//For each word, the program compute its reverse and do a linear search of the dictionary. 
+//If the dictionary contains the reverse word, it marks the word and increment your counter of the total number of palindromic words. 
+//To improve efficiency, it keep track of the positions in your array. 
+//Prints the total number of palindromic words to the screen (stdout).
 
 #include <stdio.h>
 #include <string.h>
